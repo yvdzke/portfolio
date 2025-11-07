@@ -1,0 +1,9 @@
+/* Ignore */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Ignore */
+
+:root {
+  background-color: rgba(8, 8, 8, 0.911);
+}
