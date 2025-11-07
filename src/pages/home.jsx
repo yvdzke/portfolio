@@ -7,7 +7,7 @@ function Home() {
             <div className="w-full max-w-3xl aspect-video">
               <iframe
                 className="w-full h-full rounded-xl"
-                src="https://www.youtube.com/embed/7JhjnxhO7YY?si=R5tOL09sv6DXrgtB"
+                src="https://www.youtube.com/embed/cUodQryiVnE?si=g4ghTdDDuXSUje-N"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
