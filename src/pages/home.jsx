@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 function Home() {
   return (
     <>
@@ -16,7 +18,6 @@ function Home() {
               ></iframe>
             </div>
           </div>
-
           <h1 className="text-4xl text-white font-bold mb-4">
             The code is like a joke. If it needs comment, it's no good.
           </h1>
@@ -25,6 +26,24 @@ function Home() {
             harisenin.com for deepening Skills in Web Developer. Explore my
             latest projects, showcasing my expertise in web development.
           </p>
+          <div className="mt-6 flex space-x-4 items-center justify-center">
+            <Button
+              variant="bg-red-500"
+              hover="hover:bg-red-600"
+              textColor="text-white"
+              font="font-medium "
+            >
+              Contact Me
+            </Button>
+            <Button
+              variant="bg-red-500"
+              hover="hover:bg-red-600"
+              textColor="text-white"
+              font="font-medium "
+            >
+              Contact Me
+            </Button>
+          </div>
         </div>
       </div>
     </>
