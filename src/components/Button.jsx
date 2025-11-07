@@ -1,10 +1,11 @@
 function Button(props) {
-  const { hover, variant, children, textColor, font } = props;
+  const { hover, variant, children = "...", textColor, font, onClick } = props;
   return (
     <>
       <div>
         <button
-          className={`${variant} ${hover} ${textColor} ${font}py-2 px-4 rounded-md transition-colors duration-300`}
+          onClick={onClick}
+          className={`${variant} ${hover} ${textColor} ${font}py-2 px-4 rounded-md min-w-[120px] text-center`}
         >
           {children}
         </button>

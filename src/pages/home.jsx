@@ -1,8 +1,18 @@
+// Icons
+import { IoIosDocument } from "react-icons/io";
+import { BiEnvelope } from "react-icons/bi";
+
+// Assets
+import pdfFile from "../assets/yvdzpradana.pdf";
+
+// Components
 import Button from "../components/Button";
+import Nav from "../components/Nav";
 
 function Home() {
   return (
     <>
+      <Nav></Nav>
       <div className="flex items-center justify-center h-screen">
         <div className="text-center ">
           <div className="flex justify-center items-center px-4">
@@ -28,20 +38,29 @@ function Home() {
           </p>
           <div className="mt-6 flex space-x-4 items-center justify-center">
             <Button
-              variant="bg-red-500"
-              hover="hover:bg-red-600"
-              textColor="text-white"
+              variant="bg-white border-2 border-white items-center flex space-x-2"
+              hover="hover:bg-gradient-to-br from-[#101820] to-[#1a1f2b] hover:text-white "
+              textColor="text-black"
               font="font-medium "
+              onClick={() => window.open(pdfFile, "_blank")}
             >
-              Contact Me
+              Resume
+              <IoIosDocument />
             </Button>
             <Button
-              variant="bg-red-500"
-              hover="hover:bg-red-600"
-              textColor="text-white"
+              variant="bg-teal-300 border-2 border-teal-300 items-center flex space-x-2 "
+              hover="hover:bg-gradient-to-br from-[#101820] to-[#1a1f2b] hover:text-white "
+              textColor="text-black"
               font="font-medium "
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=yvdzke@gmail.com",
+                  "_blank"
+                )
+              }
             >
               Contact Me
+              <BiEnvelope />
             </Button>
           </div>
         </div>
