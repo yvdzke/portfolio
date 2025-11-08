@@ -2,6 +2,9 @@
 import { IoIosDocument } from "react-icons/io";
 import { BiEnvelope } from "react-icons/bi";
 
+// Sections
+import SkillsSection from "../sections/SkillsSection.jsx";
+
 // Assets
 import pdfFile from "../assets/yvdzpradana.pdf";
 
