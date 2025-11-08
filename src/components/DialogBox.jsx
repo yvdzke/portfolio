@@ -30,12 +30,12 @@ function DialogBox({ isOpen, onClose, type }) {
           {type === "about" && (
             <>
               <h2 className="text-xl font-semibold mb-2">
-                Hello, <span className="text-[#5fc0a1]">I'm Yuda Pradana</span>
+                Hello, <span className="text-[#82ffd7]">I'm Yuda Pradana</span>
               </h2>
-              <p className="text-job mb-4 text-gray-300">
+              <p className="text-job mb-4 text-white">
                 I am a Full-Stack Developer
               </p>
-              <p className="text-sm leading-relaxed text-gray-300">
+              <p className="text-sm leading-relaxed text-white">
                 A Bachelor of Informatics Engineering graduate with hands-on
                 experience in full-stack developer using{" "}
                 <span className="text-[#fc0202]">HTML</span>,{" "}
@@ -50,8 +50,9 @@ function DialogBox({ isOpen, onClose, type }) {
                 designs. A detail-oriented and growth-driven professional eager
                 to secure a full-time role as a Full-Stack Developer.
               </p>
+              <br />
               <Button
-                variant="bg-white border-2 border-white items-center flex space-x-2"
+                variant="bg-white border-2 border-white items-center  flex space-x-2"
                 hover="hover:bg-gradient-to-br from-[#101820] to-[#1a1f2b] hover:text-white "
                 textColor="text-black"
                 font="font-medium "
@@ -59,13 +60,13 @@ function DialogBox({ isOpen, onClose, type }) {
               >
                 Technical Skills
               </Button>
-              <ul className="flex justify-center gap-6 mt-6">
+              <ul className="flex items-center gap-6 mt-6">
                 <li>
                   <a
                     href="https://github.com/yvdzke"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-[#5fc0a1] transition-colors"
+                    className="hover:rotate-[360deg] transform duration-500 ease-in-out inline-block"
                   >
                     <ImGithub size={21} />
                   </a>
@@ -75,7 +76,7 @@ function DialogBox({ isOpen, onClose, type }) {
                     href="https://www.linkedin.com/in/yuda-pradana-8243182a3/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-[#5fc0a1] transition-colors"
+                    className="hover:rotate-[360deg] transform duration-500 ease-in-out inline-block"
                   >
                     <FaLinkedin size={21} />
                   </a>
@@ -85,7 +86,7 @@ function DialogBox({ isOpen, onClose, type }) {
                     href="https://x.com/yvdzke"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-[#5fc0a1] transition-colors"
+                    className="hover:rotate-[360deg] transform duration-500 ease-in-out inline-block"
                   >
                     <BsTwitterX size={21} />
                   </a>
@@ -95,21 +96,26 @@ function DialogBox({ isOpen, onClose, type }) {
                     href="https://wa.me/6282110990050"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-[#5fc0a1] transition-colors"
+                    className="hover:rotate-[360deg] transform duration-500 ease-in-out inline-block"
                   >
                     <SiWhatsapp size={21} />
                   </a>
                 </li>
               </ul>
+
+              <br />
+              <p className="text-sm leading-relaxed text-gray-300">
+                © {new Date().getFullYear()} Copyright Yuda Pradana.
+              </p>
             </>
           )}
           {/* Projects Prank */}
           {type === "projects" && (
             <>
-              <h2 className="text-xl font-semibold mb-3 text-[#5fc0a1]">
+              <h2 className="text-xl font-semibold mb-3 text-[#ffffff]">
                 Hehehe~ Gotcha! 😜
               </h2>
-              <p className="text-gray-300 text-sm leading-relaxed">
+              <p className="text-white text-sm leading-relaxed">
                 You wanna see my projects, huh? Just close this one and look to
                 the home paragraph — they’re waiting for you there! 😎✨
               </p>

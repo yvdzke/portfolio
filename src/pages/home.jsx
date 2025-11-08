@@ -7,14 +7,23 @@ import SkillsSection from "../sections/SkillsSection.jsx";
 
 // Assets
 import pdfFile from "../assets/yvdzpradana.pdf";
+import mikutail from "../assets/miku/mikutail.png";
 
 // Components
 import Button from "../components/Button";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <>
+      <div className="relative">
+        <img
+          src={mikutail}
+          alt=""
+          className="absolute w-48 -top-1 left-10 z-10 animate-swing cursor-pointer hover:animate-[swing_0.8s_ease-in-out_infinite]"
+        />
+      </div>
       <Nav></Nav>
       <div className="flex items-center justify-center h-screen">
         <div className="text-center ">
@@ -37,7 +46,8 @@ function Home() {
           <p className="text-center max-w-md mx-auto leading-relaxed text-gray-300">
             Graduated Full-Stack Web Developer bootcamp program from
             harisenin.com for deepening Skills in Web Developer. Explore my
-            latest projects, showcasing my expertise in web development.
+            latest projects, showcasing my expertise in web development and
+            design.
           </p>
           <div className="mt-6 flex space-x-4 items-center justify-center">
             <Button
