@@ -73,7 +73,7 @@ hover:before:scale-95"
             </div>
           </div>
           {/* =============== Profile Banner ===============*/}
-          <div className="flex-col items-center md:items-start gap-[20px] profile-banner rounded-tl-[200px] relative rounded-br-[200px] max-w-[350px] max-h-[350px] md:max-w-[574px] md:max-h-[528px] bg-[#1FB7CA]">
+          <div className="items-center md:items-start gap-[20px] profile-banner rounded-tl-[200px] relative rounded-br-[200px] max-w-[350px] max-h-[350px] md:max-w-[574px] md:max-h-[528px] bg-[#1FB7CA]">
             {/* Miku Profile */}
             <img
               className="rounded-br-[215px] object-cover"
